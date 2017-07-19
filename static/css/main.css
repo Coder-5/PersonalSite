@@ -1,0 +1,191 @@
+.cls1{margin-left:40%;width:30%;font-style: italic;text-transform: capitalize}
+#name{color:#ff6347;margin-left:auto;margin-right:auto;width:50%;font-size:40px;text-transform: capitalize}
+.cls2{color:blue;margin-left:20px;font-style:italic;font-size: 20px;text-transform: capitalize}
+.cls3{color:blue;margin-left: 20px;font-style: italic;font-size: 20px;text-transform: capitalize}
+a:link, a:visited {
+    background-color:none;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#home{
+	width: 60px;
+	height:70px;
+	
+}
+
+.cl1{
+	margin-top: -100px;
+	position: absolute;
+}
+.cl2{
+	margin-left:65px ; position: absolute; margin-top: -100px
+}
+.cl3{
+	margin-left:120px ; position: absolute; margin-top: -100px
+}
+#contact{
+	width:120px;
+	height:70px;
+
+}
+#Hobby{
+	width: 50px;
+	height: 60px;
+}
+
+.divv {
+    background-color: lightgrey;
+    color:#0000cd;
+    overflow-y: scroll;
+    height: 30%;
+    width: 60%;
+    padding-left: 30px;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 26px;
+
+
+}
+#first{
+    font-size: 30px;
+}
+.test{
+	position: absolute;
+        border-radius: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#Nama{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 160px;
+    text-decoration: none;
+}
+#face{
+    position: absolute;
+	height: 25px;
+	border-radius: 15px;
+    margin-left: 340px
+}
+#snap{
+	position: absolute;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 320px;
+    border-spacing: 20px
+}
+#insta{ 
+	position: absolute;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 300px
+}
+
+#snapchat2{
+    height: 420px;
+    width: 450px;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+
+#f{
+    background-color: lightgrey;
+    color:#0000cd;
+    height: 24%;
+    width: 60%;
+    padding-left: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
+    float:right;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 26px;
+}
+div2{
+    background-color: #ffffff4d;
+    width: 100%;
+    height:100%;
+    padding:20px;
+}
+#cal{
+    height: 25%;
+    width: 25%;
+    border-radius: 15px;
+}
+#ctext{
+    background-color: lightgrey;
+    color:#0000cd;
+    height: 24%;
+    width: 60%;
+    padding-left: 30px;
+    border-radius: 20px;
+    float:right;
+    padding-right: 30px;
+    font-size: 20px;
+
+}
+body{
+    background-image: url("../images/22.png");
+}
+
+#next {
+    text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;
+
+}
+
+#next:hover {
+    background-color: #111;
+    color: black;
+}
+
+.previous {
+    background-color: gray;
+    color: black;
+    float: left;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+    float: right;
+    margin-top: -50px;
+}
+
+.round {
+    border-radius: 50%;

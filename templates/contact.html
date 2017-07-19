@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Salem Mufarreh
+		</title>
+		<link rel="icon" type="text/css" href="home.png">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<ul>
+  <li><a class="active" href="file:///home/user/Desktop/html/ind.html">Home</a></li>
+  
+  <li><a href="file:///home/user/Desktop/html/index2.html">About</a></li>
+  <li><a href="file:///home/user/Desktop/html/contact.html">Learn python</a></li>
+  <li><a id="Nama" href="file:///home/user/Desktop/html/ind.html">Salem Mufarreh</a></li>
+  <a class ="pic2" title="follow me on facebook" href="https://www.facebook.com/salem.mufarreh"><img id="face" alt="follow me on facebook" src="facebook.jpg"></a>
+<a title="add me on snapchat" href="file:///home/user/Desktop/html/snapchat.html
+"><img id="snap" alt="scan the image to add me on snapchat" src="snapcode.png"></a>
+<a title="follow me on instagram" href="https://www.instagram.com/salem_mufarreh/"><img id="insta" alt="follow me on instagram" src="instagram.png"></a>
+	</ul>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	</head>
+<img id="cal" src="cal.jpg"></img>
+<div id="ctext" style="display:none;">
+	<pre>
+  <div id="content">
+loop = 1
+while loop == 1:
+print "welcome to calculator"
+print "chose your option:"
+print "1)Addition"
+print "2)subrtraction"
+print "3)Multiplation"
+print "4)Division"
+print "5)Quit calculator"
+choice = int(raw_input("choose your option"))
+if choice == 1:
+first_number = raw_input("Add this: ")
+second_number = raw_input("to this:")
+sum = int(first_number)+int(second_number)
+print first_number+ "+" + second_number+ "+=" +str(sum)
+print sum
+
+the print command makes the words apear on the screen 
+if the choice is number 1. you input the first number added
+to the secound input(the secound number)and the sum will be 
+first number + the secound number then the sum will be printed 
+	</div >
+	<div id="second">
+		elif choice==2:
+			first_number = raw_input("subract this:")
+			second_number = raw_input("to this:")
+			sum = int(first_number)-int(second_number)
+			print str(first_number)+"-"+str(second_number)+"="+str(sum)
+			print sum
+	</div>
+<a id="next" href="#" class="previous round" onclick="mixed(0)">&#8249;</a>
+
+<a id="next" href="#" class="next round" onclick="mixed(1) ">&#8250;</a>
+<script type="text/javascript">function mixed(i){
+	var x = 0;
+	if (i == 1){
+		x++;
+
+	}
+	if (i == 0){
+		x--;
+	}
+	if (x==0){
+		document.getElementById("content").innerHTML="second";
+	}
+	if (x==1){
+		document.getElementById("content").innerHTML="second";
+	}
+}
+</script>
+
+
+		</pre>
+<script>
+$(document).ready(function(){
+    $("#cal").click(function(){
+        $("#ctext").show();
+    });
+});
+</script>
+</div>
+</body>
+</html>

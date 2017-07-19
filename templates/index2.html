@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My hobbies</title>
+	<link rel="icon" type="text/css" href="home.png">
+	<link rel="stylesheet" type="text/css" href="../templatesmain.css">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<ul>
+  <li><a class="active" href="file:///home/user/Desktop/html/ind.html">Home</a></li>
+ 
+  <li><a id="1" onclick="document.getElementById('1').style.color='#4CAF50'" href="file:///home/user/Desktop/html/index2.html">About</a></li>
+  <li><a id="2" onclick="document.getElementById('2').style.color='#4CAF50'"href="file:///home/user/Desktop/html/contact.html">Learn python</a></li>
+  <li><a id="Nama" onclick="document.getElementById('Nama').style.color='#4CAF50'" href="file:///home/user/Desktop/html/ind.html">Salem Mufarreh</a></li>
+  <a class ="pic" title="follow me on facebook" href="https://www.facebook.com/salem.mufarreh"><img id="face" alt="follow me on facebook" src="facebook.jpg"></a>
+<a title="add me on snapchat" href="https://accounts.snapchat.com/accounts/snapcodes
+"><img id="snap" alt="scan the image to add me on snapchat" src="snapcode.png"></a>
+<a title="follow me on instagram" href="https://www.instagram.com/salem_mufarreh/"><img id="insta" alt="follow me on instagram" src="instagram.png"></a>
+
+</ul>
+</head>
+<body>
+ 
+	<body >
+		<h1 id="title" class="cls1">My hobbies</h1>
+	<div id="div2">
+		<div class="w3-content w3-display-container">
+  			<img class="mySlides" id="basket" src="basket.jpg"style="width:70%; border-radius: 15px; margin:auto;">
+  			<img class="mySlides" id="swim" src="swimming.jpg"style="width:70%; border-radius: 15px; margin:auto;">
+			<img class="mySlides" id="code" src="coding.jpg"style="width:70%; border-radius: 15px; margin:auto;">
+			<img class="mySlides" id="body" src="body.jpg"style="width:70%; border-radius: 15px; margin:auto;">
+			<img class="mySlides" id="foot" src="foot.jpg"style="width:70%; border-radius: 15px; margin:auto;">
+
+		</div>
+		<div>
+			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		 
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
+
+		 	<center class="divv">
+				<h9>i have alot of hobbies like playing basket ball, i love to play it espcialy with firends and i'm a person who loves sports like body building and swimming , and one of my favorets hobbe is coding. i love writting codes and i also enjoy making games and websites as i start to program anything i dont feel the time and i could set and write code for many houres. and i like drowing but i'm not that good artist but stil i love trying to draw> 
+				one of my favorites sports is basketball, i love playing basket spicaly with friends spicaly fares</h9>
+			</center> 
+		</div>
+
+<br>
+<br> 
+		
+</body>
+</html>

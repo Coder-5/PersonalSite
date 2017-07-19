@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Example</title>
+	</head>
+
+<body>
+	{% if display == True %}
+		<ol>
+		{% for name in list %}
+	 
+			<li> {{name}} </li>
+		{% endfor %}
+		</ol>
+	
+	{% elif display == False %}
+		<img src="../static/images/y.jpg"> </img>
+	{% endif %}
+
+
+</body>
+			
+</html>

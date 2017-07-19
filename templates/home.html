@@ -1,0 +1,27 @@
+{% extends "indx.html" %}
+
+{% block head %}
+	<title>Salem Mufarreh</title>
+{% endblock %}
+
+{% block body %}	
+	<h1 id="name">Welcome to my Website</h1>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    		$("#s").click(function(){
+        		$("#f").show();
+    		});
+		});
+	</script>
+
+	<img id ="s" src="../static/images/Ramallah.png" class="test"></img> 
+
+
+	<div  id="f" style="display:none;"> Hello my name is Salem Mufarreh i'm 16 years old, I have one brother and one sister, I live in Ramallah and I study at Greek Catholic School.
+	<br>
+	Here you can learn more about me, my life and the code i wrote during WeCode.
+	</div>
+	
+{% endblock %}
