@@ -47,6 +47,13 @@ a:link, a:visited {
     border-radius: 20px;
     margin-top: 30px;
     font-size: 26px;
+}
+.hello {
+    padding-left: 30px;
+    margin-left: 20%;
+    margin-top: 30px;
+    font-size: 26px;
+}
 
 
 }
@@ -188,4 +195,19 @@ body{
 }
 
 .round {
-    border-radius: 50%;
+    border-radius: 50%;}
+
+.quote { 
+    font-family: arial;
+    font-size: 24px;
+    
+}
+.quote2 {
+    font-family: Arial;
+    font-size: 24px;
+    background-color: green;
+
+}
+
+
+

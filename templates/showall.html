@@ -1,0 +1,27 @@
+{% extends "indx.html" %}
+
+{% block head %}
+	<title>Salem Mufarreh</title>
+{% endblock %}
+
+{% block body %}	
+	<table>
+		<tr>
+			<td>Name</td>
+			<td>Email</td>
+			<td>Message</td>
+		</tr>
+
+			{% for person in contacts %}
+		<tr>
+			<td>{{person.name}} </td>
+			<td> {{person.email}} </td>
+			<td>{{person.message}} </td>
+
+		</tr>
+			{% endfor %}
+
+
+
+	</table>
+{% endblock %}
